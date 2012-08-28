@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="Home" url="Default.aspx">
+    <siteMapNode title="About us"  url="About.aspx"/>
+    <siteMapNode title="Login" url="Login.aspx"/>
+    <siteMapNode title="Tasks" roles="Admin,Emp,Customer">
+      <siteMapNode title="Add User" roles="Admin" url="~/Admin/AddUser.aspx"/>
+      <siteMapNode title="EmpTask1" roles="Emp" url="~/Emp/EmpTask1.aspx"/>
+      <siteMapNode title="EmpTask2" roles="Emp" url="~/Emp/EmpTask2.aspx"/>
+      <siteMapNode title="CustTask1" roles="Customer" url="~/customer/CustTask1.aspx"/>
+      <siteMapNode title="CustTask2" roles="Customer" url="~/customer/CustTask2.aspx"/>
+      <siteMapNode   siteMapFile="~/Customer/Web.SiteMap" securityTrimmingEnabled="true">
+          
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

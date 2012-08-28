@@ -1,0 +1,29 @@
+﻿*
+{
+    margin:0x;
+}
+html, body
+{
+    height:100%;
+}
+
+.wrapper
+{
+    min-height:100%;
+    height:auto !important;
+    height:100%;
+    margin:0 auto -4em;
+}
+form
+{
+    height:100%;
+}
+.footer
+{
+     background:red;
+   height:4em; 
+}
+.footer, .push
+{
+   height:4em;
+}

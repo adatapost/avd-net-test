@@ -1,0 +1,49 @@
+﻿body
+{
+    font-family:@Arial Unicode MS;
+    font-size:76%;
+}
+p
+{
+    background: lightgray;
+    padding: 10px;
+    margin: 0px;
+    font-weight: bold;
+    cursor: pointer;
+}
+p:nth-child(even)
+{
+    cursor: auto;
+    font-weight: normal;
+    background: #ffeede;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 5px;
+}
+#expand
+{
+    text-decoration: none;
+    background: silver;
+    padding: 10px 50px 10px 50px;
+    border: 1px outset silver;
+    border-radius: 40px;
+    color: gray;
+    opacity:.15;
+   
+    
+
+}
+#expand:hover
+{
+    background:Red;
+    opacity:.55;
+}
+div:nth-child(even)
+{
+    padding: 10px;
+    -moz-transform:rotate(-45deg);
+    -moz-transform-origin:120px 130px; 
+     -webkit-transform:rotate(-45deg);
+    -webkit-transform-origin:120px 130px; 
+     position:fixed;
+    top:0px;
+}
